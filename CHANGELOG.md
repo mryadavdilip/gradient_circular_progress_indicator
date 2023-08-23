@@ -1,3 +1,3 @@
-## 0.0.3
+## 0.0.4
 
 * Simple Gradient Circular Progress Indicator with optional background color parameter.
