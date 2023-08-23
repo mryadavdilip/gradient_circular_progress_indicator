@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.2
 
-* TODO: Describe initial release.
+* Simple Gradient Circular Progress Indicator with optional background color parameter.

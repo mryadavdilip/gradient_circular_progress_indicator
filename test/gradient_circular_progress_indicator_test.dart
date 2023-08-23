@@ -6,7 +6,7 @@ import 'package:gradient_circular_progress_indicator/gradient_circular_progress_
 void main() {
   test(
       'check widget',
-      () => const CustomCircularProgress(
+      () => const GradientCircularProgressIndicator(
           progress: 0.3,
           gradient: LinearGradient(
             colors: [

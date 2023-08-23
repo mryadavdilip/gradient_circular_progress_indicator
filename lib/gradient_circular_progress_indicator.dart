@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
-class CustomCircularProgress extends StatelessWidget {
+class GradientCircularProgressIndicator extends StatelessWidget {
   final double progress;
   final Gradient gradient;
   final Color? backgroundColor;
@@ -9,7 +9,7 @@ class CustomCircularProgress extends StatelessWidget {
   final double? size;
   final Widget? child;
 
-  const CustomCircularProgress({
+  const GradientCircularProgressIndicator({
     super.key,
     required this.progress,
     required this.gradient,
@@ -23,7 +23,7 @@ class CustomCircularProgress extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomPaint(
       size: size != null ? Size(size!, size!) : MediaQuery.sizeOf(context),
-      painter: _CustomCircularProgressPainter(
+      painter: _GradientCircularProgressPainter(
           progress: progress,
           gradient: gradient,
           backgroundColor: backgroundColor ?? Colors.transparent,
@@ -37,13 +37,13 @@ class CustomCircularProgress extends StatelessWidget {
   }
 }
 
-class _CustomCircularProgressPainter extends CustomPainter {
+class _GradientCircularProgressPainter extends CustomPainter {
   final double progress;
   final Gradient gradient;
   final Color backgroundColor; // New parameter for background color
   final double? stroke;
 
-  _CustomCircularProgressPainter({
+  _GradientCircularProgressPainter({
     required this.progress,
     required this.gradient,
     required this.backgroundColor,
