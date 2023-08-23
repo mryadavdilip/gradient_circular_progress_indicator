@@ -1,39 +1,47 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Custom Circular Progress Widget
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+A customizable circular progress widget for Flutter, designed to display progress using a gradient arc with an optional background color.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Installation
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Add this line to your `pubspec.yaml` file:
 
-## Features
+```yaml
+dependencies:
+  custom_circular_progress: ^1.0.0
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Getting started
+Then run flutter pub get.
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Usage
+Import the package:
 
-## Usage
+import 'package:custom_circular_progress/custom_circular_progress.dart';
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Use the CustomCircularProgress widget in your Flutter app:
 
-```dart
-const like = 'sample';
-```
+CustomCircularProgress(
+  progress: 0.75, // Specify the progress value between 0 and 1
+  gradient: LinearGradient(
+    colors: [Colors.blue, Colors.green],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  ),
+  backgroundColor: Colors.grey, // Specify the background color
+  child: Text('75%'), // Optional child widget
+)
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Parameters
+progress: A double value between 0 and 1 representing the progress.
+gradient: A gradient used to color the progress arc.
+backgroundColor: The background color behind the unfilled portion.
+child: An optional child widget to place on top of the progress.
+
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author
+Dilip Yadav
+Connect with me on LinkedIn - https://www.linkedin.com/in/mryadavdilip.

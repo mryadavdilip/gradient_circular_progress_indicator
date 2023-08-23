@@ -1,7 +1,7 @@
 name: gradient_circular_progress_indicator
-description: A new Flutter package project.
+description: Circular Progress Widget with gradient progress value color and optional background color.
 version: 0.0.1
-homepage:
+repository: https://www.github.com/mryadavdilip/gradient_circular_progress_indicator.git
 
 environment:
   sdk: '>=3.0.6 <4.0.0'

@@ -23,7 +23,7 @@ class CustomCircularProgress extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomPaint(
       size: size != null ? Size(size!, size!) : MediaQuery.sizeOf(context),
-      painter: CustomCircularProgressPainter(
+      painter: _CustomCircularProgressPainter(
           progress: progress,
           gradient: gradient,
           backgroundColor: backgroundColor ?? Colors.transparent,
@@ -37,13 +37,13 @@ class CustomCircularProgress extends StatelessWidget {
   }
 }
 
-class CustomCircularProgressPainter extends CustomPainter {
+class _CustomCircularProgressPainter extends CustomPainter {
   final double progress;
   final Gradient gradient;
   final Color backgroundColor; // New parameter for background color
   final double? stroke;
 
-  CustomCircularProgressPainter({
+  _CustomCircularProgressPainter({
     required this.progress,
     required this.gradient,
     required this.backgroundColor,
