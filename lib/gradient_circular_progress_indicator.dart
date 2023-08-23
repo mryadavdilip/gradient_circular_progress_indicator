@@ -2,10 +2,17 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 class GradientCircularProgressIndicator extends StatelessWidget {
+  /// progress value between or equal to 0 and 1 (0 <= progress <= 1)
   final double progress;
   final Gradient gradient;
+
+  /// default background Colors.transparent
   final Color? backgroundColor;
+
+  /// default stroke is (size of child divided by 10)
   final double? stroke;
+
+  /// default size is size of child
   final double? size;
   final Widget? child;
 

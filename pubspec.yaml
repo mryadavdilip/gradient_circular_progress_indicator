@@ -1,6 +1,6 @@
 name: gradient_circular_progress_indicator
 description: Circular Progress Widget with gradient progress value color and optional background color.
-version: 0.0.2
+version: 0.0.3
 repository: https://www.github.com/mryadavdilip/gradient_circular_progress_indicator.git
 
 environment:

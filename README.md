@@ -22,13 +22,13 @@ GradientCircularProgressIndicator(
 )
 
 
-Parameters
+# Parameters
 progress: A double value between 0 and 1 representing the progress.
 gradient: A gradient used to color the progress arc.
 backgroundColor: The background color behind the unfilled portion.
 child: An optional child widget to place on top of the progress.
 
-Examples
+## Examples
 Here's an example of how you can use the `GradientCircularProgressIndicator` widget
 
 import 'package:flutter/material.dart';
@@ -62,13 +62,13 @@ class MyApp extends StatelessWidget {
   }
 }
 
-Issues and Contributions
+# Issues and Contributions
 Found a bug or have a feature request? Open an issue. Contributions are welcome!
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Author
+# Author
 Dilip Yadav
 Connect with me on LinkedIn - https://www.linkedin.com/in/mryadavdilip.
 
