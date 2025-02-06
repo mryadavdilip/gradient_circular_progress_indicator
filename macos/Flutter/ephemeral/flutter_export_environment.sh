@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=C:\src\flutter"
-export "FLUTTER_APPLICATION_PATH=D:\Programmings\FlutterPackages\gradient_circular_progress_indicator"
+export "FLUTTER_APPLICATION_PATH=D:\Projects\Flutter\FlutterPackages\gradient_circular_progress_indicator"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=0.0.4"
