@@ -33,7 +33,7 @@ GradientCircularProgressIndicator(
 - stroke: stroke width
 
 # output
-[output1][assets/output1.jpg]
+![output1](assets/output1.jpg)
 
 # Issues and Contributions
 Found a bug or have a feature request? Open an issue. Contributions are welcome!
@@ -47,7 +47,7 @@ Add this line to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  gradient_cicular_progress_indicator: ^0.0.4
+  gradient_circular_progress_indicator: ^0.0.4
 ```
 
 Then run
